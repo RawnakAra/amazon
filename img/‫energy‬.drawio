@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T12:16:33.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.0" etag="3XdNpNr6XZdvLf32etSE" type="github"><diagram id="s7w5CEQPMXdbDupES0k0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-26T13:13:46.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="i6KccglmpiT4flbXKXGz" version="20.2.0" type="github">
+  <diagram id="s7w5CEQPMXdbDupES0k0" name="‫עמוד-1‬">
+    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-1" value="user get in to start page&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-1" target="sIBu-rUHbL-WEPtBHjJ4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-3" target="sIBu-rUHbL-WEPtBHjJ4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-3" value="Enters the names of the devices on" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-4" value="save the active devices in Cache&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;activeDevices-&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;${&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;sn&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="260" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-5" target="sIBu-rUHbL-WEPtBHjJ4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.404;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-5" target="sIBu-rUHbL-WEPtBHjJ4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-5" value="move the user to the Events Page" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;finish&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-9" value="every 5 seconds get from Arbel&#39;s code if ther is an active device" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-11" target="sIBu-rUHbL-WEPtBHjJ4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-11" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;every 5 seconds get new record from client house&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="540" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-12" target="sIBu-rUHbL-WEPtBHjJ4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-12" target="sIBu-rUHbL-WEPtBHjJ4-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-12" value="send the new record to Arbel&#39;s code&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;entryX=0.438;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-13" target="sIBu-rUHbL-WEPtBHjJ4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-13" value="save the event and wait the user answer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-14" value="continu" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-17" value="there is an active phase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-19" value="no event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="455" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-24" target="sIBu-rUHbL-WEPtBHjJ4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-24" value="&amp;nbsp;modal open&amp;nbsp;&lt;br&gt;(the modal will open untill the user anser)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-162" y="770" />
+              <mxPoint x="-162" y="390" />
+              <mxPoint x="-160" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;" edge="1" parent="1" source="sIBu-rUHbL-WEPtBHjJ4-26" target="sIBu-rUHbL-WEPtBHjJ4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-26" value="save the answer in the DB and in the cach" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-28" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;get answer from user&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="690" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-29" value="get the answer&amp;nbsp;&lt;br&gt;and save the answer for the active phases" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="470" y="840" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-30" value="if the device on the will check if&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;devices list&amp;nbsp;&lt;br&gt;includes the device&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sIBu-rUHbL-WEPtBHjJ4-32" value="save the user answer and the first event in the the pendingEvents array in userResponse" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="10" y="850" width="220" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
